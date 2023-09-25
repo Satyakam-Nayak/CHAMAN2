@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px;
+  background-color: black;
+  height: 80px;
+  align-items: center;
+}
+
+.hele{
+  font-size:24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+  text-decoration: none;
+}
+.home{
+  color:red;
+}
+
+.stick{
+  color: white;
+}
+
+.hele:hover{
+  color:#61dafb
+}
+
+.hele.active{
+  color: purple;
+}
+.home.active{
+  color:red;
+}
+
+.form{
+  margin: 100px;
+}
+
+.rform{
+  margin: 4%
+}
+
+.label{
+   font-size: 25px;
+   font-style: italic;
+   font-weight: bold;
+}
+
+.input{
+   margin: 25px;
+   padding: 5px;
+   outline: none;
+   border: none;
+   width: 30%;
+   border-bottom: 3px solid ;
+   font-size: 24px;
+   
+}
+
+::placeholder{
+  font-style: italic;
+}
+
+.button{
+  border: 3px solid black;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.inp{
+  padding: 1%;
+  border: 3px solid blue;
+  outline: none;
+  border-radius: 50px;
+  width: 400px;
+}
+
+.inp:hover{
+  box-shadow: 1px 0px 8px 3px blue;
+}
